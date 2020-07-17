@@ -7,7 +7,7 @@ export default function MyFiles({ data }) {
   return (
     <Layout>
       <div>
-        <h1>My Site's Files</h1>
+        <h1>These are my project files:</h1>
         <table>
           <thead>
             <tr>
