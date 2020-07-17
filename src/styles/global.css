@@ -1,0 +1,8 @@
+html,
+html > body {
+  background-color: #fff;
+  font-family: "Cinzel, serif!important";
+}
+* {
+  box-sizing: border-box;
+}
