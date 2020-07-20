@@ -3,11 +3,11 @@
 1.  **Start developing.**
 
     ```shell
-    gatsby develop
+    $ gatsby develop
 
     if you want to utilize **Playground IDE** in development run
 
-    yarn run develop
+    $ yarn run develop
     ```
 
     You might need to install packages
