@@ -4,11 +4,9 @@
 
     ```shell
     gatsby develop
-    ```
 
-    if you want to utilize `Playground IDE` in development run
+    if you want to utilize **Playground IDE** in development run
 
-    ```shell
     yarn run develop
     ```
 
