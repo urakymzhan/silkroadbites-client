@@ -40,7 +40,8 @@ export default function Menu({ data }) {
               P:
             </span>
           </strong>{" "}
-          323.620.5909 <br />
+          <a href="tel:13236205909">323.620.5909</a>
+          <br />
           <strong>
             {" "}
             <span
@@ -51,7 +52,7 @@ export default function Menu({ data }) {
               E:
             </span>
           </strong>{" "}
-          silkroadbites@gmail.com
+          <a href="mailto:silkroadbites@gmail.com">silkroadbites@gmail.com</a>
         </p>
       </div>
     </Layout>

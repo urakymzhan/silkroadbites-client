@@ -244,7 +244,7 @@ export default function Home({ data }) {
               }
             `}
           >
-            211-322-334 - email@gmail.com
+            +1.323.620.5909 - silkroadbites@gmail.com
           </p>
           <div
             css={css`

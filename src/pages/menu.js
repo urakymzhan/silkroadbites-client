@@ -178,27 +178,41 @@ export default function Menu({ data }) {
         </p>
         <p>
           <strong>
-            <span
+            <a
+              href="tel:13236205909"
               css={css`
-                color: red;
+                // color: red;
               `}
             >
-              323.620.5909
-            </span>
-          </strong>{" "}
-          -
-          <strong>
-            {" "}
-            <span
-              css={css`
-                color: purple;
-              `}
-            >
-              silkroadbites@gmail.com
-            </span>
+              WhatsApp (+1.323.620.5909)
+              <br />
+              <span
+                css={css`
+                  font-size: 10px;
+                  color: red;
+                `}
+              >
+                Click to open and chat
+              </span>
+            </a>
           </strong>{" "}
         </p>
-
+        <p>
+          <strong>
+            <a href="mailto:silkroadbites@gmail.com">
+              Email (silkroadbites@gmail.com)
+              <br />
+              <span
+                css={css`
+                  font-size: 10px;
+                  color: red;
+                `}
+              >
+                Click to open email!
+              </span>
+            </a>
+          </strong>{" "}
+        </p>
         <h3
           css={css`
             ${hdrs};

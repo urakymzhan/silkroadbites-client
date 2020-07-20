@@ -6139,6 +6139,13 @@ gatsby-plugin-google-fonts@^1.0.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
   integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
 
+gatsby-plugin-mailgo@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mailgo/-/gatsby-plugin-mailgo-0.9.8.tgz#de63d996a950fa3d89b94e0b10e434e014ad11ca"
+  integrity sha512-5oVBqtpItXvWQ5oDXSqgUPX2f3v7NM+GI5R1hv2riKnoMxZA7gyFE/N3tWDhj0onVR4e8qBGaGO30ucukpt5fw==
+  dependencies:
+    mailgo "0.9.8"
+
 gatsby-plugin-page-creator@^2.3.12:
   version "2.3.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.3.12.tgz#de4c42dfe96022603350a26cce71afb966eb7a1d"
@@ -8839,6 +8846,11 @@ magic-string@^0.25.3:
   integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
   dependencies:
     sourcemap-codec "^1.4.4"
+
+mailgo@0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.8.tgz#51c4fc3d24f085c758c0992e942c301a36d983db"
+  integrity sha512-xffbv+F9Wfm+kcepraxV4fNXbWqM12h6hmeH6K9rEk4WQ4J90auVo7ffo11ulbDdJ9Zap+glx+HtS9UiYtg7ug==
 
 make-dir@^1.0.0, make-dir@^1.2.0:
   version "1.3.0"
