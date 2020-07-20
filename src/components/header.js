@@ -12,9 +12,9 @@ const links = css`
 `
 export default function Header() {
   // static query
-  const data = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
-      query {
+      query HeaderQuery {
         site {
           siteMetadata {
             title
@@ -42,7 +42,7 @@ export default function Header() {
             color: #a0b4a9 !important;
           `}
         >
-          {data.site.siteMetadata.title}
+          {site.siteMetadata.title}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" css={css``}>

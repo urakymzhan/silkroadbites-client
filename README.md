@@ -6,13 +6,18 @@
     gatsby develop
     ```
 
-    You might need to install packages
+    if you want to utilize `Playground IDE` in development run
+
+````shell
+ yarn run develop
+ ```
+ You might need to install packages
 
 1.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+ Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`\_. This is a tool you can use to experiment with querying your data.
+ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`\_. This is a tool you can use to experiment with querying your data.
 
 ##### Some important files:
 
@@ -25,3 +30,4 @@
 4.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
 5.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+````
